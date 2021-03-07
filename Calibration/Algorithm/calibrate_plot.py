@@ -13,8 +13,8 @@ path = '../original data/Group1CalibrateData/'
 filename = 'ImuArray_1_3_IMU.bin'
 filepath = path + filename
 
-gyros_param_path = '../original data/CalibrateResult/GyrosParamGroup1.txt'
-accel_param_path = '../original data/CalibrateResult/AccelParamGroup1.txt'
+gyros_param_path = '../Group1CalibrateResult/GyrosParamGroup1.txt'
+accel_param_path = '../Group1CalibrateResult/AccelParamGroup1.txt'
 
 imu = np.fromfile(filepath).reshape(-1, 7)
 dt = np.mean(np.diff(imu[:, 0]))

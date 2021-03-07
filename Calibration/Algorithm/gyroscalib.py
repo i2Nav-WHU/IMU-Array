@@ -12,7 +12,7 @@ wie = np.array([w_en, -w_ew, -w_eu])
 
 filepath = "../original data/Group1CalibrateData/ImuArray_1_1_IMU.bin"
 path = '../original data/Group1CalibrateData/'
-outpath = "../original data/CalibrateResult/"
+outpath = "../Group1CalibrateResult/"
 data = np.fromfile(filepath).reshape(-1, 7)
 
 # the moment of the rotation movement

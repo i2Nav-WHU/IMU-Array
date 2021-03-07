@@ -9,3 +9,6 @@ ARW:0.06
 VRW:0.06
 GB:25
 AB:62.5
+
+Antenna lever-arm[m]:
+0.715, -0.08, -1.14
