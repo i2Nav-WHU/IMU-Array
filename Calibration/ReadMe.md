@@ -1,5 +1,15 @@
 Files in this folder:
 
+
+
+#### Group1_ref_data.bin:
+
+The reference truth value of acceleration and angular velocity during Group 1 calibration. In this file, 'nan' represents that we can not determine the reference value at that time.
+
+
+
+
+
 ### \Algorithm:
 
  calibration pargram
@@ -19,6 +29,14 @@ Gyroscope calibration code written by python.
 #### calibrae_plot.py:
 
  Plot the IMU measurement before and after conpensating for calibration parameter.
+
+
+
+
+
+### \Group1CompendatedData:
+
+The measurement of 16 IMUs after compensating for calibration parameters.
 
 
 
