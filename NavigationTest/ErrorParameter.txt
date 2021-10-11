@@ -1,14 +1,14 @@
 Signel IMU:
-ARW:0.24
-VRW:0.24
-GB:50
-AB:250
+ARW:0.24  deg/sqrt(h)
+VRW:0.24  m/s/sqrt(h)
+GB:50     deg/h
+AB:250    mGal
 
 IMU Array:
-ARW:0.06
-VRW:0.06
-GB:25
-AB:62.5
+ARW:0.06  deg/sqrt(h)
+VRW:0.06  m/s/sqrt(h)
+GB:25     deg/h
+AB:62.5   mGal
 
 Antenna lever-arm[m]:
 0.715, -0.08, -1.14
